@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="50dp">
+
+    <LinearLayout
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre y Apellido del paciente"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/razon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Razón de Visita"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
+            android:textSize="24sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/horario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horario"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="301dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_editar"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit"
+            android:contentDescription="editaTexto" />
+
+        <Button
+            android:id="@+id/btn_eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:layout_weight="1"
+            android:background="@drawable/delete"
+            android:contentDescription="eliminaRegistro" />
+
+    </LinearLayout>
+
+</LinearLayout>
